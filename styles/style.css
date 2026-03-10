@@ -114,14 +114,16 @@
 }
 
 .card__content {
-  margin: 0;
-  background-color: #fff;
   border-radius: 4px;
   width: 360px;
   height: 420px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.card {
+  margin: 0;
+  background-color: #fff;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .card__title {
