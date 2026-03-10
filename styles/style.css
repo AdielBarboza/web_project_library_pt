@@ -112,7 +112,8 @@
   list-style: none;
   padding-left: 0;
 }
-.card {
+
+.card__content {
   margin: 0;
   background-color: #fff;
   border-radius: 4px;
