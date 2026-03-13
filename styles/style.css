@@ -336,22 +336,25 @@
 
 .footer {
   display: flex;
+  flex-direction: column;
   background-color: #1f1f1f;
   box-sizing: border-box;
   font-size: 16px;
   line-height: 20px;
+  padding: 60px 80px;
 }
 .footer__column {
-  margin-right: auto;
+  /*margin-right: auto;*/
 }
 .footer__columns {
   display: flex;
-  padding: 60px 80px;
+
   width: 100%;
 }
 
 .footer__column_content_hours {
   margin-right: 80px;
+  margin-left: auto;
 }
 
 .footer__column_content_social {
@@ -363,7 +366,6 @@
 }
 
 .footer__column-heading {
-  align-items: center;
 }
 
 .footer__list {
@@ -371,9 +373,13 @@
   list-style-type: none;
   padding: 0;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .footer__list-item {
+  margin: 0;
   display: flex;
   color: #fff;
 }
@@ -384,10 +390,15 @@
 }
 
 .footer__social-icon {
-  size: 16px;
+  right: 16px;
+  width: 16px;
 }
 
+.footer__list-item-text {
+  margin: 0px;
+}
 .footer__copyright {
+  display: flex;
 }
 .autor {
 }
