@@ -400,6 +400,7 @@
 }
 
 .footer__social-icon {
+  margin: 5px;
   right: 16px;
   width: 16px;
 }
